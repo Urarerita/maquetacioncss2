@@ -1,0 +1,36 @@
+body {
+    width: 1200px;
+    margin:auto
+    background-color: #f4f4f4;
+}
+
+.encabezado{
+    height: 400px;
+    background-color: #92512b;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 400px;
+}
+
+.container {
+    height: 250px;
+    display: flex;
+}
+.row {
+    display: flex;
+
+}
+
+.yellow { background-color: gold; width: 400px; height: 250px;}
+.blue { background-color: navy; width: 400px; height:  250px;}
+
+.red { background-color: red; width: 50%; height: 150px;}
+.green { background-color: lightgreen; width:50%; height: 150px; }
+
+.orange { background-color: darkorange; width: 85%; height: 300px; }
+.red-small { background-color: red; width: 15%; height: 300px;}
+
+.black{ background-color: black; height: 200px;}
+
+.red-bottom { background-color: red; width: 15%; height: 300px;}
+.orange2 {height: 300px; width: 85%; background-color: orange;}

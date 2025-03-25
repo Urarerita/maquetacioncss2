@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20vh;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido {
+    width: 75%;
+    background-color: lightgray;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50vh;
+}
+
+/* MENU E INICIO DE SESIÓN */
+.menu {
+    width: 25%;
+    height: 25vh;
+    background-color: gold;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25vh;
+}
+
+.login {
+    width: 25%;
+    height: 25vh;
+    background-color: lightblue;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25vh;
+}
+
+/* SECCIÓN INFERIOR */
+.bottom-section {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+
+.left-box {
+    width: 33.3%;
+    background-color: lightgreen;
+}
+
+.middle-box {
+    width: 33.3%;
+    background-color: yellow;
+}
+
+.right-box {
+    width: 33.3%;
+    background-color: red;
+}
+
+/* FOOTER */
+.footer {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 10vh;
+}

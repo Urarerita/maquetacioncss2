@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+.banner{
+    width: 1000px;
+    height: 350px;
+    background-color: yellow;
+    line-height: 350px;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+
+
+}
+.nav{
+    width: 1000px;
+    height: 125px;
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+.pagina{
+    flex: 2;
+    line-height: 125px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+.pagina1, .pagina3 {
+    background-color: orangered;
+    width: 500px;
+} 
+.pagina2, .pagina4{
+    background-color: gray;
+    width: 500px;
+}
+.contenido{
+    width: 1000px;
+    display: flex;
+    
+}
+.section, .aside{
+    width: 250px;
+    height: 500px;
+    background-color: lightgrey;
+    line-height: 500px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.article{
+    flex: 1;
+    height: 500px;
+    background-color: lightcoral;
+    line-height: 500px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+aside{
+    background-color: violet;
+}
+
+footer{
+    width: 1000px;
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}

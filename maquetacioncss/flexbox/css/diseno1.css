@@ -1,0 +1,33 @@
+.container{
+    width: 1440px;
+    margin: auto;
+
+}
+header{
+    background-color: palevioletred;
+    height: 350px;
+}
+main{
+    display: flex;
+    height: 900px;
+    flex-direction: row;
+}
+nav,aside{
+    width: 25%;
+  
+    
+}
+nav{
+    background-color: pink;
+}
+aside{
+    background-color: violet;
+}
+section{
+    width: 50%;
+background-color: thistle;
+}
+footer{
+    height: 50%;
+    background-color: blueviolet;
+}

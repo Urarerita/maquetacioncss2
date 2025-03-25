@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ENCABEZADO */
+.encabezado {
+    width: 1440px;
+    height: 400px;
+    background-color: #92512b;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 400px;
+}
+
+/* BARRA DE MENÚ */
+nav{
+    display: flex;
+    width: 1440;
+    height: 50px;
+}
+.barra-menu {
+    width: 1440px;
+    height: 50px;
+    background-color: #aaffb6;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 400px;
+}
+
+/* SECCIÓN MISIÓN - VISIÓN - VALORES */
+.seccion-mision-vision {
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+
+.mision {
+    flex: 1;
+    width: 33.3%;
+    background-color: #88C060;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 250px;
+}
+
+.vision {
+    flex: 1;
+    width: 33.3%;
+    background-color: #FAD65C;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 250px;
+}
+
+.valores {
+    flex: 1;
+    width: 33.3%;
+    background-color: #A8C8E6;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 250px;
+}
+
+/* CONTENIDO */
+.contenido {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 800px;
+}
+
+/* SECCIÓN DE IMÁGENES */
+.imagenes {
+    display: flex;
+    width: 100%;
+    height: 240px;
+}
+
+.imagen1{
+    flex: 1;
+    background-color: orangered;
+}
+.imagen2{
+    flex: 1;
+    background-color: blue;
+}
+.imagen3{
+    flex: 1;
+    background-color: orangered;
+}
+.imagen4{
+    flex: 1;
+    background-color: blue;
+}
+.imagen5{
+    flex: 1;
+    background-color: orangered;
+}
+.imagen6{
+flex: 1;
+background-color: blue;
+}
+
+/* PIE DE PÁGINA */
+.pie-pagina {
+    width: 100%;
+    height: 50px;
+    background-color: #A8C8E6;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+}

@@ -1,0 +1,53 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    grid-template-rows: 100px 125px 500px 50px; /* Alturas de las filas */
+    gap: 10px; /* Espacio entre elementos */
+}
+
+/* Banner: ocupa todas las columnas */
+.banner {
+    grid-column: 1 / -1; /* Ocupa desde la columna 1 hasta la última */
+    background-color: #bc5d5d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Páginas: cada una ocupa una columna */
+.pagina1, .pagina2, .pagina3, .pagina4 {
+    background-color: #d7cece;
+    padding: 20px;
+    text-align: center;
+}
+.pagina1, .pagina3{
+    background-color: #3d3131;
+}
+
+/* Section: ocupa las primeras 2 columnas */
+section {
+    grid-column: 1 / 2; /* Ocupa las columnas 1 y 2 */
+    background-color: #c65858;
+    padding: 20px;
+}
+
+/* Article: ocupa la tercera columna */
+article {
+    grid-column: 5 / 4; /* Ocupa la columna 3 */
+    background-color: #8d4242;
+    padding: 20px;
+}
+
+/* Aside: ocupa la cuarta columna */
+aside {
+    grid-column: 4 / 5; /* Ocupa la columna 4 */
+    background-color: #ca6363;
+    padding: 20px;
+}
+.footer {
+    grid-column: 1 / -1; /* Ocupa todas las columnas */
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

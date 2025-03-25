@@ -1,0 +1,47 @@
+.contenedor {
+   display: grid;
+   grid-template-rows: 350px auto 50px; /* Alturas de las filas */
+   grid-template-columns: 1fr 2fr 1fr; /* 3 columnas */
+   gap: 10px; /* Espacio entre elementos */
+}
+
+/* Encabezado: ocupa todas las columnas */
+header {
+   grid-column: 1 / -1; /* Ocupa desde la columna 1 hasta la última */
+   background-color: #5e2163;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
+
+/* Menú: ocupa la primera columna */
+nav {
+   grid-column: 1 / 2; /* Ocupa la columna 1 */
+   background-color: #bf90c0;
+   padding: 20px;
+   height: 900px;
+}
+
+/* Contenido: ocupa la segunda columna */
+main {
+   grid-column: 2 / 3; /* Ocupa la columna 2 */
+   background-color: #8a6a94;
+   padding: 20px;
+}
+
+/* Login: ocupa la tercera columna */
+aside {
+   grid-column: 3 / 4; /* Ocupa la columna 3 */
+   background-color:  #bf90c0;
+   padding: 20px;
+}
+
+/* Pie de página: ocupa todas las columnas */
+footer {
+   grid-column: 1 / -1; /* Ocupa desde la columna 1 hasta la última */
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+
